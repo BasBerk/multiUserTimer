@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bike Time Trial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Bike Time Trial</h1>
+      <nav class="app-nav">
+        <button data-nav="racers" class="nav-btn">Racers</button>
+        <button data-nav="race" class="nav-btn">Race</button>
+        <button data-nav="results" class="nav-btn">Results</button>
+        <button data-nav="compare" class="nav-btn">Progress</button>
+      </nav>
+    </header>
+
+    <main class="app-main">
+      <section data-view="racers" class="view" hidden></section>
+      <section data-view="race" class="view" hidden></section>
+      <section data-view="results" class="view" hidden></section>
+      <section data-view="compare" class="view" hidden></section>
+    </main>
+
+    <script src="js/format.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/racers.js"></script>
+    <script src="js/race.js"></script>
+    <script src="js/results.js"></script>
+    <script src="js/compare.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
